@@ -14,7 +14,7 @@ function App() {
   // Main function
   const runCoco = async () => {
     // 3. TODO - Load network 
-    const net = await tf.loadGraphModel('https://livelong.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json')
+    const net = await tf.loadGraphModel('https://ammarsaleh50.github.io/tensorflow-OD-model-hosting/tensorflow-OD-model/model.json')
     
     // Loop and detect hands
     setInterval(() => {
@@ -49,9 +49,11 @@ function App() {
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
       
-      const boxes = await obj[4].array()
-      const classes = await obj[5].array()
-      const scores = await obj[6].array()
+      console.log(await obj[7].array())
+
+      const boxes = await obj[1].array()
+      const classes = await obj[2].array()
+      const scores = await obj[7].array()
     
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
