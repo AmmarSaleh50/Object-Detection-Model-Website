@@ -1,10 +1,18 @@
-My Object-Detection Webapp using React
+# 🚀 My Own Trained Object-Detection Model in a WebApp (React)  
 
-## 📸 Example Images of some detections
+## 📸 Example Images of Some Detections
 
-![Detection of ThumbsUp](https://github.com/AmmarSaleh50/Object-Detection-Model-Website/blob/main/ThumbsUp_Detection.png)
+### 👍 **Thumbs Up**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmmarSaleh50/Object-Detection-Model-Website/main/ThumbsUp_Detection.png" width="400">
+</p>
 
-![Detection of ThumbsUp](https://github.com/AmmarSaleh50/Object-Detection-Model-Website/blob/main/ThumbsDown_Detection.png)
+### 👎 **Thumbs Down**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmmarSaleh50/Object-Detection-Model-Website/main/ThumbsDown_Detection.png" width="400">
+</p>
 
-![Detection of ThumbsUp](https://github.com/AmmarSaleh50/Object-Detection-Model-Website/blob/main/LiveLong_Detection.png)
-
+### 🖖 **Live Long**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmmarSaleh50/Object-Detection-Model-Website/main/LiveLong_Detection.png" width="400">
+</p>
