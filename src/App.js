@@ -49,11 +49,11 @@ function App() {
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
       
-      console.log(await obj[7].array())
+      console.log(await obj[3].array())
 
-      const boxes = await obj[1].array()
-      const classes = await obj[2].array()
-      const scores = await obj[7].array()
+      const boxes = await obj[4].array()
+      const classes = await obj[1].array()
+      const scores = await obj[3].array()
     
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
