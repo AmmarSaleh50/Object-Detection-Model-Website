@@ -14,7 +14,7 @@ function App() {
   // Main function
   const runCoco = async () => {
     // 3. TODO - Load network 
-    const net = await tf.loadGraphModel('https://ammarsaleh50.github.io/tensorflow-OD-model-hosting/tensorflow-OD-model/model.json')
+    const net = await tf.loadGraphModel('https://ammarsaleh50.github.io/tensorflow-OD-model-hosting/tensorflow-OD-model-Gestures/model.json')
     
     // Loop and detect hands
     setInterval(() => {
